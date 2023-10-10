@@ -1,2 +1,3 @@
 # BIdirectional SEISmic MOtion GENarator (BiSeisMoGen)
-Software (.exe file) to generate stochastically simulated motions for process-specific (fully nonstationary) recorded bidirectional ground motions
+
+<a href="https://doi.org/10.1002/eqe.3537">Naskar and Das (2021)</a>
