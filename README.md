@@ -10,15 +10,15 @@ Dynamic responses of a structure during any earthquake are approximately compute
 
 ## Instructions to use SeisMoGen4
 ----
-1. Download SeisMoGen4.rar from [here](https://drive.google.com/file/d/1GsEiwNGM_LIQKCb1cFWCKFyPPn9sP047/view?usp=sharing).
-2. Extract SeisMoGen4.rar within a suitable folder.
-3. Keep the recorded bidirectional ground motion file in the same folder where SeisMoGen4.exe resides. Two sample files (*target_moiton_01.dat* and *target_moiton_02.dat*) with acceleration values recorded along two directions are included within SeisMoGen4. The ground motion file must be in a 3-column format with the following values.
+1. Download *SeisMoGen4.rar* from [here](https://drive.google.com/file/d/1GsEiwNGM_LIQKCb1cFWCKFyPPn9sP047/view?usp=sharing).
+2. Extract *SeisMoGen4.rar* within a suitable folder.
+3. Keep the recorded bidirectional ground motion file in the same folder where *SeisMoGen4.exe* resides. Two sample files (*target_moiton_01.dat* and *target_moiton_02.dat*) with acceleration values recorded along two directions are included within the *SeisMoGen4.rar* file. The ground motion file must be in a 3-column format with the following values.
    >* 1st column: time instants
    >* 2nd column: acceleration along recording direction 1
    >* 3rd column: acceleration along recording direction 2
-4. Run SeisMoGen4.exe. A screenshot of the software at this step is shown below.
+4. Run *SeisMoGen4.exe*. A screenshot of the software at this step is shown below.
    <p align="center"> <img align="center" src="SeisMoGen4_demo.png" alt="drawing" width="900"/> </p>
-6. Enter the name of the input file including some necessary information to simulate the artificial motions. A sample input file (*SeisMoGen4_sample_input.dat*) is included within SeisMoGen4. However, other input files with different names and/or different extensions can also be used, provided they include the following row-wise details (similar to *SeisMoGen4_sample_input.dat*).
+6. Enter the name of the input file including some necessary information to simulate the artificial motions. A sample input file (*SeisMoGen4_sample_input.dat*) is included within *SeisMoGen4.rar*. However, other input files with different names and/or different extensions can also be used, provided they include the following row-wise details (similar to *SeisMoGen4_sample_input.dat*).
    >* 1st column: filename of the target recorded bidirectional ground motion (e.g., *target_moiton_01.dat* and *target_moiton_02.dat*), which will be used to generate simulated motions.
    >* 2nd column: name of the folder (e.g., *simulated_folder_01* or *simulated_folder_02*) where the simulated files will be stored.
    >* 3rd column: required number (less than 100) of pairs of simulated bidirectional ground motions (e.g., 50).
