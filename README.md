@@ -1,4 +1,4 @@
-![Logo](http://francky.me/images/quora001.png)
+![Logo](https://lh3.googleusercontent.com/drive-viewer/AK7aPaBeEVShCCPjBw7h2LsnRh3r0nz-ndunaItNz0O5jR8830_Cv7sfDqeMmBfl_29jRjBVlIxgiPwuTdCpJ2cKF9j_tTTf=s2560)
 
 # SEISmic MOtion GENarator (SeisMoGen)
 
