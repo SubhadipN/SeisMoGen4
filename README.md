@@ -20,6 +20,8 @@ Dynamic responses of a structure during any earthquake are approximately compute
    >* 1st column: filename of the target recorded bidirectional ground motion (e.g., *target_moiton_01.dat* and *target_moiton_02.dat*), which will be used to generate simulated motions.
    >* 2nd column: name of the folder (e.g., *simulated_folder_01* or *simulated_folder_02*) where the simulated files will be stored.
    >* 3rd column: required number (less than 100) of pairs of simulated bidirectional ground motions (e.g., 50).
+   <p align="center"> <img align="center" src="SeisMoGen4_demo1.png" alt="drawing" width="1600"/> </p>
+   <p align="center"> Screenshot of the software after Step 5 </p>
 ----
 
 > [!IMPORTANT]
