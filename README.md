@@ -6,6 +6,7 @@
 Dynamic responses of a structure during any earthquake are approximately computed via nonlinear time-history analysis of any (idealized) 2D numerical model of the structure subjected to a unidirectional component of the ground motion. Therefore, the application of two orthogonal horizontal components of the ground motion on a 3D numerical model of the structure is necessary to get more realistic dynamic responses. In that case, the random simulation of bidirectional ground motions recorded along two orthogonal directions in the horizontal plane becomes useful to carry out the statistical study of dynamic responses of 3D structures via nonlinear time-history analysis. SeisMoGen4 can be used to simulate $n(\leq 100)$ number of pairs of random bidirectional samples from acceleration values recorded along two orthogonal horizontal directions during a seismic event. The fully nonstationary (amplitude and frequency) artificial samples are simulated using the Priestley process-based methodology (refer to Section 2 of this <a href="https://doi.org/10.1002/eqe.3537">article</a>) and they are oriented along the corresponding recording directions.
 
 ## Instruction to use SeisMoGen4
+----
 > 1. Download SeisMoGen4.rar from [here](https://drive.google.com/file/d/1Ow1-BrQRcV0Y9EC4IGDMaHvTG9q1oOWn/view?usp=sharing).
 > 2. Extract SeisMoGen4.rar within a suitable folder.
 > 3. Keep the recorded bidirectional ground motion file in the same folder where SeisMoGen4.exe resides. Two sample files (*target_moiton_01.dat* and *target_moiton_02.dat*) with acceleration values recorded along two directions are included within SeisMoGen4. The ground motion file must be in a 3-column format with the following values.
@@ -17,6 +18,7 @@ Dynamic responses of a structure during any earthquake are approximately compute
 >    >* 1st column: filename of the target recorded bidirectional ground motion (e.g., *target_moiton_01.dat* and *target_moiton_02.dat*), which will be used to generate simulated motions.
 >    >* 2nd column: name of the folder (e.g., *simulated_folder_01* or *simulated_folder_02*) where the simulated files will be stored.
 >    >* 3rd column: required number (less than 100) of pairs of simulated bidirectional ground motions (e.g., 50).
+----
 
 > [!IMPORTANT]
 > 1. The details provided in the input file will generate the required number of pairs of bidirectional motions corresponding to multiple target-recorded motions in a single run and store them in separate user-defined folders.
