@@ -37,5 +37,5 @@ A screenshot of the software at this step is shown below.
 > * The required number of pairs of simulated motions (i.e., the value prescribed in the 3rd column of the input file similar to *SeisMoGen4_sample_input.dat*) must be less than 100.
 > * The number of rows available in the user-defined input file must not exceed 1000. It means the program can generate artificial motions corresponding to not more than 1000 target bidirectional motions in a single run. If someone needs to simulate random motions corresponding to more numbers of target motions, the program must be executed more than once.
 
-## Reference
+## Cite as
 <a href="https://doi.org/10.1002/eqe.3537">Naskar and Das (2021)</a> "Bi-directional ground motions: Stochastic simulation and frequency-dependent modal combination rule", <i>Earthquake Engineering & Structural Dynamics</i>, Vol. 50(14), pp. 3872-3893.
