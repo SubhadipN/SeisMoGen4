@@ -8,7 +8,7 @@ Dynamic responses of a structure during any earthquake are approximately compute
 > [!TIP]
 > The previous versions of the software (SeisMoGen1 to SeisMoGen3) to generate unidirectional simulated samples from process-specific and scenario-specific information of a recording process are available [here](https://sites.google.com/site/sandipdas/seismogen).
 
-## Instruction to use SeisMoGen4
+## Instructions to use SeisMoGen4
 ----
 1. Download SeisMoGen4.rar from [here](https://drive.google.com/file/d/1GsEiwNGM_LIQKCb1cFWCKFyPPn9sP047/view?usp=sharing).
 2. Extract SeisMoGen4.rar within a suitable folder.
