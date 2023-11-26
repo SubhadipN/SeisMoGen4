@@ -14,13 +14,14 @@ Dynamic responses of a structure during any earthquake are approximately compute
 >    * 3rd column: acceleration along recording direction 2
 > 4. Run SeisMoGen4.exe.
 > 5. Enter the name of the input file including some necessary information to simulate the artificial motions. A sample input file (*SeisMoGen4_input.dat*) is included within SeisMoGen4. However, other input files with different names and/or different extensions can also be used, provided they include the following row-wise details (similar to *SeisMoGen4_input.dat*).
->    * 1st column: filename of the target recorded bidirectional ground motion (e.g., *target_moiton_01.dat* and *target_moiton_02.dat*), which will be used to generate simulated motions.
+>    * 1st column: filename of the target-recorded bidirectional ground motion (e.g., *target_moiton_01.dat* and *target_moiton_02.dat*), which will be used to generate simulated motions.
 >    * 2nd column: name of the folder (e.g., *simulated_folder_01* or *simulated_folder_02*) where the simulated files will be stored.
->    * 3rd column: required number of pairs of simulated bidirectional ground motions (e.g., 50).
+>    * 3rd column: required number (less than 100) of pairs of simulated bidirectional ground motions (e.g., 50).
 
 > [!IMPORTANT]
-> The details provided in the input file will generate the required number of pairs of bidirectional motions corresponding to multiple target-recorded motions in a single run and store them in separate user-defined folders. 
-> SeisMoGen4 will simulate $n$   
+> The details provided in the input file will generate the required number of pairs of bidirectional motions corresponding to multiple target-recorded motions (less than 1000) in a single run and store them in separate user-defined folders.
+
+> The simulated motion files contain data in the 3-column format similar to the target-recorded bidirectional ground motion file (e.g., *target_moiton_01.dat* and *target_moiton_02.dat*).
 
 ## Reference
 <a href="https://doi.org/10.1002/eqe.3537">Naskar and Das (2021)</a> "Bi-directional ground motions: Stochastic simulation and frequency-dependent modal combination rule", <i>Earthquake Engineering & Structural Dynamics</i>, Vol. 50(14), pp. 3872-3893.
