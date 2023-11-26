@@ -9,11 +9,11 @@ Dynamic responses of a structure during any earthquake are approximately compute
   > 1. Download SeisMoGen4.rar from [here](https://drive.google.com/file/d/1Ow1-BrQRcV0Y9EC4IGDMaHvTG9q1oOWn/view?usp=sharing).
   > 2. Extract SeisMoGen4.rar within a suitable folder.
   > 3. Keep the recorded bidirectional ground motion file in the same folder where SeisMoGen4.exe resides.
-     1. The ground motion file must be in a 3-column format with the following values.
-        * 1st column: time instants
-        * 2nd column: acceleration along recording direction 1
-        * 3rd column: acceleration along recording direction 2
-     2. The incremental time-step of the 1st column must be 0.02 seconds.
+  >   1. The ground motion file must be in a 3-column format with the following values.
+  >      * 1st column: time instants
+  >      * 2nd column: acceleration along recording direction 1
+  >      * 3rd column: acceleration along recording direction 2
+  >   2. The incremental time-step of the 1st column must be 0.02 seconds.
   > 4. Run SeisMoGen4.exe.
 
 ## Reference
