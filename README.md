@@ -25,7 +25,7 @@ Dynamic responses of a structure during any earthquake are approximately compute
 A screenshot of the software at this step is shown below.
    <p align="center"> <img align="center" src="SeisMoGen4_demo1.png" alt="drawing" width="1000"/> </p>
 
-50 pairs of the sample output files generated from each sample recorded file (i.e., *target_moiton_01.dat* and *target_moiton_02.dat*) are stored in the corresponding folders (i.e., *simulated_folder_01* and *simulated_folder_02*) as defined in the sample input file *SeisMoGen4_sample_input.dat*. Those output folders can be downloaded from [Link1](https://drive.google.com/drive/folders/1mqcx6su3UM6fgs544AuB42XwMST5WUBC?usp=sharing) and [Link2](https://drive.google.com/drive/folders/1GAP9Wcns70nkMcGMU0F8bg7lW-1q4lbe?usp=sharing), respectively. 
+** 50 pairs of the sample output files generated from each sample recorded file (i.e., *target_moiton_01.dat* and *target_moiton_02.dat*) are stored in the corresponding folders (i.e., *simulated_folder_01* and *simulated_folder_02*) as defined in the sample input file *SeisMoGen4_sample_input.dat*. Those output folders can be downloaded from [Link1](https://drive.google.com/drive/folders/1mqcx6su3UM6fgs544AuB42XwMST5WUBC?usp=sharing) and [Link2](https://drive.google.com/drive/folders/1GAP9Wcns70nkMcGMU0F8bg7lW-1q4lbe?usp=sharing), respectively. 
 ----
 
 > [!IMPORTANT]
