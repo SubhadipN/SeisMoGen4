@@ -14,7 +14,7 @@ Dynamic responses of a structure during any earthquake are approximately compute
    >* 2nd column: acceleration along recording direction 1
    >* 3rd column: acceleration along recording direction 2
 4. Run SeisMoGen4.exe.
-   <p align="center"> <img align="center" src="SeisMoGen4_demo.png.png" alt="drawing" width="500"/> </p>
+   <p align="center"> <img align="center" src="SeisMoGen4_demo.png.png" alt="drawing" width="100"/> </p>
    <p align="center"> Screenshot of the software after Step 4 </p>
 6. Enter the name of the input file including some necessary information to simulate the artificial motions. A sample input file (*SeisMoGen4_input.dat*) is included within SeisMoGen4. However, other input files with different names and/or different extensions can also be used, provided they include the following row-wise details (similar to *SeisMoGen4_input.dat*).
    >* 1st column: filename of the target recorded bidirectional ground motion (e.g., *target_moiton_01.dat* and *target_moiton_02.dat*), which will be used to generate simulated motions.
