@@ -21,6 +21,7 @@ Dynamic responses of a structure during any earthquake are approximately compute
 > [!IMPORTANT]
 > 1. The details provided in the input file will generate the required number of pairs of bidirectional motions corresponding to multiple target-recorded motions (less than 1000) in a single run and store them in separate user-defined folders.
 > 2. The simulated motion files contain data in the 3-column format similar to the target-recorded bidirectional ground motion file (e.g., *target_moiton_01.dat* and *target_moiton_02.dat*).
+> 3. The simulated motions are baseline-corrected and high-pass filtered with a cutoff frequency of 0.1Hz using Butterworth filter (order = 1). 
 
 ## Reference
 <a href="https://doi.org/10.1002/eqe.3537">Naskar and Das (2021)</a> "Bi-directional ground motions: Stochastic simulation and frequency-dependent modal combination rule", <i>Earthquake Engineering & Structural Dynamics</i>, Vol. 50(14), pp. 3872-3893.
