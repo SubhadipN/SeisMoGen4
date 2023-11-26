@@ -24,12 +24,10 @@ Dynamic responses of a structure during any earthquake are approximately compute
    >* 3rd column: required number (less than 100) of pairs of simulated bidirectional ground motions (e.g., 50).
 A screenshot of the software at this step is shown below.
    <p align="center"> <img align="center" src="SeisMoGen4_demo1.png" alt="drawing" width="1000"/> </p>
-
-** 50 pairs of the sample output files generated from each sample recorded file (i.e., *target_moiton_01.dat* and *target_moiton_02.dat*) are stored in the corresponding folders (i.e., *simulated_folder_01* and *simulated_folder_02*) as defined in the sample input file *SeisMoGen4_sample_input.dat*. Those output folders can be downloaded from [Link1](https://drive.google.com/drive/folders/1mqcx6su3UM6fgs544AuB42XwMST5WUBC?usp=sharing) and [Link2](https://drive.google.com/drive/folders/1GAP9Wcns70nkMcGMU0F8bg7lW-1q4lbe?usp=sharing), respectively. 
 ----
 
 > [!IMPORTANT]
-> 1. The details provided in the input file will generate the required number of pairs of bidirectional motions corresponding to multiple target-recorded motions in a single run and store them in separate user-defined folders.
+> 1. The details provided in the input file will generate the required number of pairs of bidirectional motions corresponding to multiple target-recorded motions in a single run and store them in separate user-defined folders. For example, 50 pairs of the sample output files generated from each sample recorded file (i.e., *target_moiton_01.dat* and *target_moiton_02.dat*) are stored in the corresponding folders (i.e., *simulated_folder_01* and *simulated_folder_02*) as defined in the sample input file *SeisMoGen4_sample_input.dat*. Those output folders can be downloaded from [Link1](https://drive.google.com/drive/folders/1mqcx6su3UM6fgs544AuB42XwMST5WUBC?usp=sharing) and [Link2](https://drive.google.com/drive/folders/1GAP9Wcns70nkMcGMU0F8bg7lW-1q4lbe?usp=sharing), respectively. 
 > 2. The simulated motion files contain data in the 3-column format similar to the target recorded bidirectional ground motion file (e.g., *target_moiton_01.dat* and *target_moiton_02.dat*).
 > 3. The simulated motions are baseline-corrected and high-pass filtered with a cutoff frequency of 0.1Hz using Butterworth filter (order = 1).
 
