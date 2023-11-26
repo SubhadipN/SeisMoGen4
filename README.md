@@ -7,6 +7,8 @@ Dynamic responses of a structure during any earthquake are approximately compute
 
 ## Instruction to use SeisMoGen4
   1. Download SeisMoGen4.rar from [here](https://drive.google.com/file/d/1Ow1-BrQRcV0Y9EC4IGDMaHvTG9q1oOWn/view?usp=sharing).
+  2. Extract files from SeisMoGen4.rar within a suitable folder.
+  3. Keep the recorded bidirectional ground motion file in the same folder where SeisMoGen4.exe resides.
 
 ## Reference
 <a href="https://doi.org/10.1002/eqe.3537">Naskar and Das (2021)</a> "Bi-directional ground motions: Stochastic simulation and frequency-dependent modal combination rule", <i>Earthquake Engineering & Structural Dynamics</i>, Vol. 50(14), pp. 3872-3893.
