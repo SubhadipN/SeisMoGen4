@@ -25,6 +25,7 @@ Dynamic responses of a structure during any earthquake are approximately compute
    
    A screenshot of the software at this step is shown below.
    <p align="center"> <img align="center" src="SeisMoGen4_demo1.png" alt="drawing" width="900"/> </p>
+   
 ----
 
 > [!IMPORTANT]
