@@ -23,7 +23,7 @@ Dynamic responses of a structure during any earthquake are approximately compute
    >* 2nd column: name of the folder (e.g., *simulated_folder_01* or *simulated_folder_02*) where the simulated files will be stored.
    >* 3rd column: required number (less than 100) of pairs of simulated bidirectional ground motions (e.g., 50).
    
-A screenshot of the software at this step is shown below.
+   A screenshot of the software at this step is shown below.
 <p align="center"> <img align="center" src="SeisMoGen4_demo1.png" alt="drawing" width="900"/> </p>
 ----
 
