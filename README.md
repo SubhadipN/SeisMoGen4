@@ -31,7 +31,8 @@ Dynamic responses of a structure during any earthquake are approximately compute
 > [!IMPORTANT]
 > 1. The details provided in the input file will generate the required number of pairs of bidirectional motions corresponding to multiple target-recorded motions in a single run and store them in separate user-defined folders. For example, 50 pairs of the sample output files generated from each sample recorded file (i.e., *target_moiton_01.dat* and *target_moiton_02.dat*) are stored in the corresponding folders (i.e., *simulated_folder_01* and *simulated_folder_02*) as defined in the sample input file *SeisMoGen4_sample_input.dat*. Those output folders can be downloaded from [Link1](https://drive.google.com/drive/folders/1mqcx6su3UM6fgs544AuB42XwMST5WUBC?usp=sharing) and [Link2](https://drive.google.com/drive/folders/1GAP9Wcns70nkMcGMU0F8bg7lW-1q4lbe?usp=sharing), respectively. 
 > 2. The simulated motion files contain data in the 3-column format similar to the target recorded bidirectional ground motion file (e.g., *target_moiton_01.dat* and *target_moiton_02.dat*).
-> 3. The simulated motions are baseline-corrected and high-pass filtered with a cutoff frequency of 0.1Hz using Butterworth filter (order = 1).
+> 3. The simulated motions are aligned along the corresponding recording directions of the target recorded motion.
+> 4. The simulated motions are baseline-corrected and high-pass filtered with a cutoff frequency of 0.1Hz using Butterworth filter (order = 1).
 
 > [!CAUTION]
 > For successful execution of SeisMoGen4.exe, following conditions must be satisfied.
