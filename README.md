@@ -10,7 +10,7 @@ Dynamic responses of a structure during any earthquake are approximately compute
 
 ## Instructions to use SeisMoGen4
 ----
-1. Download *SeisMoGen4.rar* from [here](https://drive.google.com/file/d/1GsEiwNGM_LIQKCb1cFWCKFyPPn9sP047/view?usp=sharing).
+1. Download *SeisMoGen4.rar* from [here](https://drive.google.com/file/d/1v3IJoqUKlbNLnmrm7wA5p6NOUf3nAwn9/view?usp=sharing).
 2. Extract *SeisMoGen4.rar* within a suitable folder.
 3. Keep the recorded bidirectional ground motion file in the same folder where *SeisMoGen4.exe* resides. Two sample files (*target_moiton_01.dat* and *target_moiton_02.dat*) with acceleration values recorded along two directions are included within the *SeisMoGen4.rar* file. The ground motion file must be in a 3-column format with the following values.
    >* 1st column: time instants
@@ -29,7 +29,7 @@ Dynamic responses of a structure during any earthquake are approximately compute
 ----
 
 > [!IMPORTANT]
-> 1. The details provided in the input file will generate the required number of pairs of bidirectional motions corresponding to multiple target-recorded motions in a single run and store them in separate user-defined folders. For example, 50 pairs of the sample output files generated from each sample recorded file (i.e., *target_moiton_01.dat* and *target_moiton_02.dat*) are stored in the corresponding folders (i.e., *simulated_folder_01* and *simulated_folder_02*) as defined in the sample input file *SeisMoGen4_sample_input.dat*. Those output folders can be downloaded from [Link1](https://drive.google.com/drive/folders/1mqcx6su3UM6fgs544AuB42XwMST5WUBC?usp=sharing) and [Link2](https://drive.google.com/drive/folders/1GAP9Wcns70nkMcGMU0F8bg7lW-1q4lbe?usp=sharing), respectively. 
+> 1. The details provided in the input file will generate the required number of pairs of bidirectional motions corresponding to multiple target-recorded motions in a single run and store them in separate user-defined folders. For example, 50 pairs of the sample output files generated from each sample recorded file (i.e., *target_moiton_01.dat* and *target_moiton_02.dat*) are stored in the corresponding folders (i.e., *simulated_folder_01* and *simulated_folder_02*) as defined in the sample input file *SeisMoGen4_sample_input.dat*. Those output folders can be downloaded from [Link1](https://drive.google.com/file/d/10FlZBS7drD_YG0SbWGn-MJt6EdnXnFQr/view?usp=sharing) and [Link2](https://drive.google.com/file/d/13Biw5xF0fhOUofjXSe4-gu6Ky9eRDT_q/view?usp=sharing), respectively. 
 > 2. The simulated motion files contain data in the 3-column format similar to the target recorded bidirectional ground motion file (e.g., *target_moiton_01.dat* and *target_moiton_02.dat*).
 > 3. The simulated motions are aligned along the corresponding recording directions of the target recorded motion.
 > 4. The simulated motions are baseline-corrected and high-pass filtered with a cutoff frequency of 0.1Hz using Butterworth filter (order = 1).
