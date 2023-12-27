@@ -1,4 +1,5 @@
-<p align="center"> <img align="center" src="[SeisMoGen4_demo.png](https://drive.google.com/uc?export=view&id=1nPWVLQdjJXm55aMKyxnaGy4XBF-p-lfV)" alt="drawing" width="900"/> </p>
+<a href="https://drive.google.com/uc?export=view&id=1nPWVLQdjJXm55aMKyxnaGy4XBF-p-lfV"> <img src="https://drive.google.com/uc?export=view&id=1nPWVLQdjJXm55aMKyxnaGy4XBF-p-lfV" /> </a>
+
 # SEISmic MOtion GENarator (SeisMoGen)
 
 ## Description
