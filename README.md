@@ -1,4 +1,4 @@
-![Logo](https://lh3.googleusercontent.com/drive-viewer/AK7aPaBeEVShCCPjBw7h2LsnRh3r0nz-ndunaItNz0O5jR8830_Cv7sfDqeMmBfl_29jRjBVlIxgiPwuTdCpJ2cKF9j_tTTf=s2560)
+[Logo](https://drive.google.com/uc?export=view&id=1nPWVLQdjJXm55aMKyxnaGy4XBF-p-lfV)
 
 # SEISmic MOtion GENarator (SeisMoGen)
 
