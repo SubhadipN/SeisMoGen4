@@ -41,4 +41,4 @@ Dynamic responses of a structure during any earthquake are approximately compute
 > * The number of rows available in the user-defined input file must not exceed 1000. It means the program can generate artificial motions corresponding to not more than 1000 target bidirectional motions in a single run. If someone needs to simulate random motions corresponding to more numbers of target motions, the program must be executed more than once.
 
 ## Cite as
-Naskar, S, Das, S. Bi-directional ground motions: Stochastic simulation and frequency-dependent modal combination rule. Earthquake Engng Struct Dyn. 2021; 50: 3872–3893. <a href="https://doi.org/10.1002/eqe.3537">https://doi.org/10.1002/eqe.3537</a>
+**Naskar, S**, Das, S. Bi-directional ground motions: Stochastic simulation and frequency-dependent modal combination rule. Earthquake Engng Struct Dyn. 2021; 50: 3872–3893. <a href="https://doi.org/10.1002/eqe.3537">https://doi.org/10.1002/eqe.3537</a>
